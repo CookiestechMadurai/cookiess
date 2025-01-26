@@ -1,0 +1,78 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.nav-link:hover {
+  color: #5a4ff7 !important;
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: #5a4ff7;
+  border-color: #5a4ff7;
+}
+
+.btn-primary:hover {
+  background-color: #4a3ed6;
+  border-color: #4a3ed6;
+}
+
+img:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+h1:hover, h3:hover {
+  color: #5a4ff7;
+  transition: all 0.3s ease-in-out;
+
+}
+button {
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #4a3ed6;
+  transform: scale(1.05);
+}
+ .title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            width: 100%;
+            max-width: 1200px;
+          
+            align-items: center;
+            text-align: center;
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .feature {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature h3 {
+            font-size: 2rem;
+            color: #00457c;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #555;
+        }
+ .spacer {
+            height: 50px;
+        }
